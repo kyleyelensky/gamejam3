@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class Countdown : MonoBehaviour {
-    public float timeStart = 60;
+    public float timeStart = 15;
     public Text textBox;
 
 	// Use this for initialization
@@ -17,6 +17,8 @@ public class Countdown : MonoBehaviour {
         if(timeStart <= 0){
             timeStart = 0.0f;
             textBox.text = "Game Over";
+            Debug.Log ("QUIT!");
+            Application.Quit();
         }
         else{
             timeStart -= Time.deltaTime;
