@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class Countdown : MonoBehaviour {
-    public float timeStart = 15;
+    public float timeStart = 10;
     public Text textBox;
 
 	// Use this for initialization
