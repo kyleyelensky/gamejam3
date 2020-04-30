@@ -1687,7 +1687,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'The goal is to collect all the coins. Every coin collected adds 5s to
+  m_text: 'The goal is to collect all the coins. Every coin collected adds 3s to
     the timer. Use the basic arrow keys to move. Good Luck!
 
 '
